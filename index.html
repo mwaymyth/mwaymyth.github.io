@@ -424,31 +424,6 @@ You must replace <code>userToken</code> with your personal API key.
 <p>The value of <strong>query</strong> MUST be a single JSON string tha contains a valid GraphQL script(query or mutation).</p>
 
 <p>If you reference variables in your GraphQL script, the value of <strong>variables</strong> MUST be a JSON object containg the key/vaulue pairs for each variable.</p>
-<pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens"</span>
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><h3 id='query-parameters-2'>Query Parameters</h3>
-<table><thead>
-<tr>
-<th>Parameter</th>
-<th>Default</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>include_cats</td>
-<td>false</td>
-<td>If set to true, the result will also include cats.</td>
-</tr>
-<tr>
-<td>available</td>
-<td>true</td>
-<td>If set to false, the result will include kittens that have already been adopted.</td>
-</tr>
-</tbody></table>
-
-<aside class="success">
-Remember — a happy kitten is an authenticated kitten!
-</aside>
 <h1 id='query'>Query</h1><h2 id='me'>me</h2>
 <blockquote>
 <p>JSON output</p>
